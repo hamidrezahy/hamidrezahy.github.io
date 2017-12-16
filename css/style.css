@@ -24,6 +24,12 @@ body, p {
 .main-intro h2 {
   font-weight: 300;
   font-size: 1.5em;
+  color: black;
+}
+
+.main-intro h4 {
+  font-weight: 250;
+  font-size: 1.1em;
   color: slategray;
 }
 
@@ -87,6 +93,14 @@ body, p {
 
 .skype {
   background: #00AFF0;
+}
+
+.outlook {
+  background: #0078D7;
+}
+
+.yahoo {
+  background: #410093;
 }
 
 @media (min-device-width: 768px) {
