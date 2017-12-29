@@ -1,10 +1,25 @@
+@font-face {
+  font-family: 'IranSansWeb_Light';
+  src: url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.ttf) format('truetype'),
+    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.eot) format('eot'),
+    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff) format('woff'),
+    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff2) format('woff2');
+}
+
 body {
   width: 100%;
   align-items: center;
-  line-height: 1.25;
-  font-family: 'Hind', sans-serif;
   display: flex;
   flex-direction: column;
+}
+body:lang(en){
+  line-height: 1.25;
+  font-family: 'Hind', sans-serif;
+}
+body:lang(fa){
+  direction: rtl;
+  line-height: 1.25;
+  font-family: IranSansWeb_Light, sans-serif;
 }
 
 body, p {
@@ -119,4 +134,8 @@ body, p {
   .card:hover {
     transform: scale(1.1);
   }
+}
+
+.langset ,p{
+  
 }
