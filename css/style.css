@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'IranSansWeb_Light';
   src: url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.ttf) format('truetype'),
-    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.eot) format('eot'),
-    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff) format('woff'),
-    url(../fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff2) format('woff2');
+    url(~/fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.eot) format('eot'),
+    url(~/fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff) format('woff'),
+    url(~/fonts/IranSans/IRANSansWeb_Light/IRANSansWeb_Light.woff2) format('woff2');
 }
 
 body {
@@ -137,5 +137,5 @@ body, p {
 }
 
 .langset ,p{
-  
+
 }
