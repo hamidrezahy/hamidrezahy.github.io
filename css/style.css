@@ -122,6 +122,7 @@ body, p {
   .card {
     flex: 1 200px;
   }
+  
 }
 
 @media (min-width: 960px) {
@@ -136,6 +137,34 @@ body, p {
   }
 }
 
-.langset ,p{
 
+#langset {
+direction: rtl;
+}
+
+#langset:lang(fa) {
+  direction: ltr;
+}
+
+#langset a{
+  text-decoration: none;
+  direction: ltr;
+}
+
+#langset:lang(fa) a{
+  text-decoration: none;  
+  direction: rtl;
+}
+
+#langset a:link {
+  color: darkslategray;
+}
+
+#langset a:hover {
+  color: #E53935;
+  
+}
+
+#langset a:visited {
+  color: slategray;
 }
